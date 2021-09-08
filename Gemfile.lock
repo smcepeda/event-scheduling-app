@@ -48,7 +48,7 @@ GEM
       io-like (~> 0.3.0)
     arel (9.0.0)
     bcrypt (3.1.13)
-    better_errors (2.7.1)
+    better_errors (2.8.0)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
@@ -86,7 +86,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    erubi (1.9.0)
+    erubi (1.10.0)
     execjs (2.7.0)
     faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
@@ -112,7 +112,9 @@ GEM
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
     method_source (1.0.0)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
@@ -126,7 +128,7 @@ GEM
     orm_adapter (0.5.0)
     public_suffix (4.0.5)
     puma (3.12.6)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     rack-proxy (0.6.5)
